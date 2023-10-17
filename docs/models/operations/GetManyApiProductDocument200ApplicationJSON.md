@@ -1,0 +1,11 @@
+# GetManyApiProductDocument200ApplicationJSON
+
+List of API product documents
+
+
+## Fields
+
+| Field                                                                                                                            | Type                                                                                                                             | Required                                                                                                                         | Description                                                                                                                      |
+| -------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| `data`                                                                                                                           | array<[\test_workspace-2\Konnect-API\Models\Shared\APIProductDocumentSummary](../../models/shared/APIProductDocumentSummary.md)> | :heavy_check_mark:                                                                                                               | N/A                                                                                                                              |
+| `meta`                                                                                                                           | [\test_workspace-2\Konnect-API\Models\Shared\PaginatedMeta](../../models/shared/PaginatedMeta.md)                                | :heavy_check_mark:                                                                                                               | returns the pagination information                                                                                               |

@@ -1,4 +1,9 @@
 configVersion: 1.0.0
+management:
+  docChecksum: 4f9fdc5d3ad5b28727674ddaa8b61d0a
+  docVersion: 2.0.0
+  speakeasyVersion: 1.100.1
+  generationVersion: 2.159.1
 generation:
   comments:
     disableComments: false
@@ -8,8 +13,14 @@ generation:
   sdkClassName: Konnect-API
   singleTagPerOp: false
   tagNamespacingDisabled: false
+features:
+  php:
+    core: 2.88.2
+    deprecations: 2.81.1
+    globalSecurity: 2.81.1
+    globalServerURLs: 2.82.0
 php:
-  version: 0.0.1
+  version: 0.1.0
   maxMethodParams: 0
   namespace: test_workspace-2\Konnect-API
   packageName: test-workspace-2/konnect-api

@@ -1,0 +1,19 @@
+{
+  "name": "test-workspace-2/konnect-api",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "test_workspace-2\\Konnect-API\\": "src/"
+    }
+  },
+  "license": "MIT",
+  "require": {
+    "php": ">=8.1.0",
+    "guzzlehttp/guzzle": "^7.0",
+    "jms/serializer": "^3.22"
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^1.9",
+    "phpunit/phpunit": "^10"
+  }
+}

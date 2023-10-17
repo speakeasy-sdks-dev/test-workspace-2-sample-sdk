@@ -1,0 +1,12 @@
+# APIProductVersionSpec
+
+
+## Fields
+
+| Field                                                         | Type                                                          | Required                                                      | Description                                                   | Example                                                       |
+| ------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- |
+| `content`                                                     | *string*                                                      | :heavy_check_mark:                                            | The contents of the API product version specification         | My YAML or JSON formatted OAS content                         |
+| `createdAt`                                                   | [\DateTime](https://www.php.net/manual/en/class.datetime.php) | :heavy_check_mark:                                            | An ISO-8601 timestamp representation of entity creation date. | 2022-11-04T20:10:06.927Z                                      |
+| `id`                                                          | *string*                                                      | :heavy_check_mark:                                            | The API product version specification identifier.             | 7710d5c4-d902-410b-992f-18b814155b53                          |
+| `name`                                                        | *string*                                                      | :heavy_check_mark:                                            | The name of the API product version specification             | oas.yaml                                                      |
+| `updatedAt`                                                   | [\DateTime](https://www.php.net/manual/en/class.datetime.php) | :heavy_check_mark:                                            | An ISO-8601 timestamp representation of entity update date.   | 2022-11-04T20:10:06.927Z                                      |
