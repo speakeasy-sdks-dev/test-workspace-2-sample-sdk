@@ -1,0 +1,15 @@
+# DocumentTree
+
+a document tree
+
+
+## Fields
+
+| Field                                                               | Type                                                                | Required                                                            | Description                                                         | Example                                                             |
+| ------------------------------------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| `id`                                                                | *string*                                                            | :heavy_check_mark:                                                  | N/A                                                                 | d32d905a-ed33-46a3-a093-d8f536af9a8a                                |
+| `metadata`                                                          | [DocumentTreeMetadata](../../models/shared/DocumentTreeMetadata.md) | :heavy_check_mark:                                                  | metadata of the document                                            |                                                                     |
+| `parentDocumentId`                                                  | *?string*                                                           | :heavy_minus_sign:                                                  | N/A                                                                 | dd4e1b98-3629-4dd3-acc0-759a726ffee2                                |
+| `slug`                                                              | *string*                                                            | :heavy_check_mark:                                                  | document slug                                                       | path-for-seo                                                        |
+| `status`                                                            | [PublishStatus](../../models/shared/PublishStatus.md)               | :heavy_check_mark:                                                  | document publish status                                             |                                                                     |
+| `title`                                                             | *string*                                                            | :heavy_check_mark:                                                  | N/A                                                                 |                                                                     |
